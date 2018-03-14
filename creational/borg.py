@@ -80,6 +80,11 @@ if __name__ == '__main__':
     print('rm2: {0}'.format(rm2))
     print('rm3: {0}'.format(rm3))
 
+    print('rm1: {0}'.format(id(rm1)))
+    print('rm2: {0}'.format(id(rm2)))
+    print('rm3: {0}'.format(id(rm3)))
+    
+    
 ### OUTPUT ###
 # rm1: Running
 # rm2: Running
@@ -90,3 +95,7 @@ if __name__ == '__main__':
 # rm1: Init
 # rm2: Init
 # rm3: Init
+# rm1 id : 4317032520
+# rm2 id : 4317032632
+# rm3 id : 4317032688
+
